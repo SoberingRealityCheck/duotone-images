@@ -1,0 +1,19 @@
+{
+	"name": "duotone-images",
+	"version": "0.1.0",
+	"description": "Obsidian plugin: save duotone copies of images",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"test": "node --experimental-strip-types test/duotone.test.ts"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^22.15.17",
+		"esbuild": "0.25.5",
+		"obsidian": "latest",
+		"typescript": "^5.8.3"
+	}
+}

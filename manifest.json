@@ -1,0 +1,9 @@
+{
+	"id": "duotone-images",
+	"name": "Duotone Images",
+	"version": "0.1.0",
+	"minAppVersion": "1.7.2",
+	"description": "Save black-and-white copies of images with black and white mapped to two colors you pick.",
+	"author": "SoberingRealityCheck",
+	"isDesktopOnly": false
+}
